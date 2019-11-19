@@ -1,25 +1,25 @@
 @font-face {
-    font-family: effra;
+    font-family: Effra;
     src: url(effra/Effra.ttf);
 }
 
 @font-face {
-    font-family: effraBold;
+    font-family: EffraBold;
     src: url(effra/EffraBold.ttf);
 }
 
 @font-face {
-    font-family: effraItalic;
+    font-family: EffraItalic;
     src: url(effra/EffraItalic.ttf);
 }
 
 @font-face {
-    font-family: effraLight;
+    font-family: EffraLight;
     src: url(effra/EffraLight.ttf);
 }
 
 @font-face {
-    font-family: effraMedium;
+    font-family: EffraMedium;
     src: url(effra/EffraMedium.ttf);
 }
 
@@ -33,6 +33,10 @@ body {
     flex-direction: column;
     font-family: Effra;
     scroll-behavior: smooth;
+}
+
+.description {
+    font-family: EffraLight;
 }
 
 
@@ -70,7 +74,7 @@ body {
 }
 
 .button1 {
-    font-family: effra;
+    font-family: Effra;
     height: 100%;
     font-size: 18px;
     border-radius: 5px;
@@ -91,7 +95,7 @@ body {
 /* sign up */
 
 .button2 {
-    font-family: effra;
+    font-family: Effra;
     height: 100%;
     font-size: 18px;
     border-radius: 5px;
@@ -118,7 +122,7 @@ body {
 #section1 {
     height: 100vh;
     z-index: 2;
-    background-image: url("img/eltonJohn3.jpg");
+    background-image: url("img/eltonJohn4.jpg");
     background-size: cover;
 }
 
@@ -178,6 +182,7 @@ body {
 }
 
 .intro {
+    font-family: EffraLight;
     font-size: 20px;
     position: relative;
     top: 10%;
@@ -321,7 +326,7 @@ a[href^="#link4"] {
 
 #link4 {
     height: 100vh;
-    background-image: url("img/eltonJohn3.jpg");
+    background-image: url("img/eltonJohn4.jpg");
     background-size: cover;
     z-index: 2;
 }
@@ -350,7 +355,7 @@ a[href^="#link4"] {
 /* get started */
 
 .button3 {
-    font-family: effra;
+    font-family: Effra;
     width: 100%;
     padding: 40px;
     font-size: 24px;
@@ -419,6 +424,7 @@ a[href^="#nav"] {
         padding: 20px;
     }
     .intro {
+        font-family: effraLight;
         text-align: center;
         padding: 20px;
         top: 10px;

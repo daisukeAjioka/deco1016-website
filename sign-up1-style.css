@@ -1,25 +1,25 @@
 @font-face {
-    font-family: effra;
+    font-family: Effra;
     src: url(effra/Effra.ttf);
 }
 
 @font-face {
-    font-family: effraBold;
+    font-family: EffraBold;
     src: url(effra/EffraBold.ttf);
 }
 
 @font-face {
-    font-family: effraItalic;
+    font-family: EffraItalic;
     src: url(effra/EffraItalic.ttf);
 }
 
 @font-face {
-    font-family: effraLight;
+    font-family: EffraLight;
     src: url(effra/EffraLight.ttf);
 }
 
 @font-face {
-    font-family: effraMedium;
+    font-family: EffraMedium;
     src: url(effra/EffraMedium.ttf);
 }
 
@@ -32,6 +32,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Effra;
+}
+
+.description {
+    font-family: EffraLight;
 }
 
 
@@ -66,7 +70,7 @@ body {
 }
 
 .button1 {
-    font-family: effra;
+    font-family: Effra;
     height: 100%;
     font-size: 18px;
     border-radius: 5px;
@@ -107,6 +111,7 @@ body {
 }
 
 #signUpContainer h2 {
+    font-family: EffraBold;
     text-align: left;
     font-size: 50px;
     margin: 0;
@@ -126,7 +131,7 @@ body {
 
 input[type=text],
 input[type=password] {
-    font-family: effra;
+    font-family: Effra;
     font-size: 18px;
     width: 100%;
     padding: 8px 20px;
@@ -152,6 +157,7 @@ input[type=password] {
 }
 
 .checkbox1 input {
+    font-family: EffraMedium;
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -210,7 +216,7 @@ input[type=password] {
 }
 
 .cancel {
-    font-family: effra;
+    font-family: Effra;
     font-size: 20px;
     color: #818895;
     background-color: #D7E3F9;
@@ -226,7 +232,7 @@ input[type=password] {
 }
 
 .signUp {
-    font-family: effra;
+    font-family: Effra;
     font-size: 20px;
     background-color: #3574DF;
     color: white;

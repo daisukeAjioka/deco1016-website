@@ -1,25 +1,25 @@
 @font-face {
-    font-family: effra;
+    font-family: Effra;
     src: url(effra/Effra.ttf);
 }
 
 @font-face {
-    font-family: effraBold;
+    font-family: EffraBold;
     src: url(effra/EffraBold.ttf);
 }
 
 @font-face {
-    font-family: effraItalic;
+    font-family: EffraItalic;
     src: url(effra/EffraItalic.ttf);
 }
 
 @font-face {
-    font-family: effraLight;
+    font-family: EffraLight;
     src: url(effra/EffraLight.ttf);
 }
 
 @font-face {
-    font-family: effraMedium;
+    font-family: EffraMedium;
     src: url(effra/EffraMedium.ttf);
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .button1 {
-    font-family: effra;
+    font-family: Effra;
     height: 100%;
     font-size: 18px;
     border-radius: 5px;
@@ -107,6 +107,7 @@ body {
 }
 
 .content h2 {
+    font-family: EffraBold;
     text-align: left;
     font-size: 50px;
     margin: 0;
@@ -153,6 +154,7 @@ body {
 }
 
 .checkbox1 input {
+    font-family: EffraMedium;
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -204,7 +206,7 @@ body {
 }
 
 #back {
-    font-family: effra;
+    font-family: Effra;
     display: inline-block;
     font-size: 20px;
     color: #818895;
@@ -222,7 +224,7 @@ body {
 }
 
 #skip {
-    font-family: effra;
+    font-family: Effra;
     display: inline-block;
     font-size: 20px;
     background-color: #3574DF;
