@@ -1,0 +1,514 @@
+@font-face {
+    font-family: effra;
+    src: url(effra/Effra.ttf);
+}
+
+@font-face {
+    font-family: effraBold;
+    src: url(effra/EffraBold.ttf);
+}
+
+@font-face {
+    font-family: effraItalic;
+    src: url(effra/EffraItalic.ttf);
+}
+
+@font-face {
+    font-family: effraLight;
+    src: url(effra/EffraLight.ttf);
+}
+
+@font-face {
+    font-family: effraMedium;
+    src: url(effra/EffraMedium.ttf);
+}
+
+/* initial screensize: Macbook Air (1440x900) */
+
+html,
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Effra;
+    scroll-behavior: smooth;
+}
+
+.description {
+    font-family: effraLight;
+}
+
+
+/* nav styles */
+
+.logo {
+    float: left;
+    padding: 1%;
+    height: 35px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    background: rgb(53, 116, 223);
+    background: linear-gradient(135deg, rgba(53, 116, 223, 1) 0%, rgba(19, 56, 95, 1) 100%);
+    color: #FFFFFF;
+    padding: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+/* log in */
+
+.buttonContainer {
+    position: absolute;
+    right: 3%;
+    display: flex;
+    justify-content: flex-end;
+    height: 60%;
+    width: 40%;
+
+}
+
+.button1 {
+    font-family: effra;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    margin-right: 5%;
+    color: #FFFFFF;
+    background-color: #AEC7F2;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.button1:hover {
+    transform: scale(1.05);  
+}
+
+
+/* sign up */
+
+.button2 {
+    font-family: effra;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    color: #818895;
+    background-color: #D7E3F9;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.button2:hover {
+    transform: scale(1.05);  
+}
+
+.container {
+    height: 100vh;
+    justify-content: center;
+}
+
+/* container styles */
+
+#section1 {
+    height: 100vh;
+    z-index: 2;
+    background-image: url("img/aditya-chinchure-ZhqCZjr9fHo-unsplash.jpg");
+    background-size: cover;
+}
+
+.hero {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContainer {
+    background: rgb(35, 35, 35);
+    background: linear-gradient(90deg, rgba(35, 35, 35, 1) 80%, rgba(35, 35, 35, 0) 100%);
+    padding: 20%;
+    height: inherit;
+    width: inherit;
+    opacity: 0.9;
+}
+
+#heroContent {
+    width: 70%;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40%;
+    z-index: 2;
+    background: rgb(53, 116, 223);
+    background: linear-gradient(135deg, rgba(53, 116, 223, 1) 0%, rgba(19, 56, 95, 1) 100%);
+    transition: transform 1s;
+}
+
+.footer1:hover {
+  transform: translateY(-20px);
+}
+
+
+#t1,
+#t2 {
+    font-family: effraBold;
+    font-size: 90px;
+    margin: 0;
+    width: 80%;
+}
+
+.search input[type=text] {
+    padding: 20px;
+    min-width: 90%;
+    margin-top: 50px;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+.intro {
+    font-family: effraLight;
+    font-size: 20px;
+    position: relative;
+    top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tickets1 {
+    float: right;
+    height: 140px;
+}
+
+a[href^="#link2"] {
+    font-family: effraBold;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 18px;
+    color: rgb(53, 116, 223);
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 20px;
+    transition: all .2s ease-in-out;
+}
+
+a[href^="#link2"]:hover {
+    transform: scale(1.05);  
+
+}
+
+/* container 2 styles */
+
+#link2 {
+    height: 100vh;
+    background-image: url("img/chris-chow-rHERhrnGSsQ-unsplash.jpg");
+    background-size: cover;
+    z-index: 0;
+}
+
+.content2 {
+    position: relative;
+    top: 80px;
+    background: rgb(53, 116, 223);
+    background: linear-gradient(270deg, rgba(53, 116, 223, 1) 90%, rgba(19, 56, 95, 0) 100%);
+    width: 70%;
+    height: 95%;
+    opacity: 0.95;
+    float: right;
+    transition: width 2s;
+}
+
+.content2:hover {
+    width: 75%;
+}
+
+.header2 {
+    font-family: effraBold;
+    color: #FFFFFF;
+    font-size: 30px;
+    width: 100%;
+    padding-left: 50px;
+    background: rgb(35, 35, 35);
+    float: right;
+}
+
+.text2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 60%;
+    float: right;
+    padding-right: 15%;
+    position: relative;
+    top: 10%;
+}
+
+a[href^="#link3"] {
+    font-family: effraBold;
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+    color: rgb(53, 116, 223);
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+
+/* container 3 styles */
+
+#link3 {
+    height: 100vh;
+    background-image: url("img/sharon-mccutcheon-8lnbXtxFGZw-unsplash.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
+.content3 {
+    position: relative;
+    top: 80px;
+    background: rgb(53, 116, 223);
+    background: linear-gradient(270deg, rgba(53, 116, 223, 1) 90%, rgba(19, 56, 95, 0) 100%);
+    width: 70%;
+    height: 95%;
+    opacity: 0.95;
+    float: right;
+    transition: width 2s;
+}
+
+.content3:hover {
+    width: 75%;
+}
+
+.header3 {
+    font-family: effraBold;
+    color: #FFFFFF;
+    font-size: 30px;
+    width: 100%;
+    padding-left: 50px;
+    background: rgb(35, 35, 35);
+    float: right;
+}
+
+.text3 {
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 60%;
+    float: right;
+    padding-right: 15%;
+    position: relative;
+    top: 10%;
+}
+
+a[href^="#link4"] {
+    font-family: effraBold;
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+    color: rgb(53, 116, 223);
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+
+/* container 4 styles */
+
+#link4 {
+    height: 100vh;
+    background-image: url("img/aditya-chinchure-ZhqCZjr9fHo-unsplash.jpg");
+    background-size: cover;
+    z-index: 2;
+}
+
+.content4 {
+    font-family: effraBold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-size: 35px;
+    top: 15%;
+    padding: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    background: rgb(35, 35, 35);
+    background: linear-gradient(180deg, rgba(35, 35, 35, 1) 30%, rgba(35, 35, 35, 0) 100%);
+    opacity: 0.9;
+}
+
+.footer2 {
+    text-align: center;
+    z-index: 3;
+}
+
+/* get started */
+
+.button3 {
+    font-family: effra;
+    width: 100%;
+    padding: 40px;
+    font-size: 24px;
+    border-radius: 100px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #3574DF;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.button3:hover {
+    transform: scale(1.05);  
+
+}
+
+.back {
+    position: absolute;
+    bottom: 0;
+}
+
+a[href^="#nav"] {
+    font-family: effraBold;
+    font-size: 24px;
+    color: rgb(53, 116, 223);
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    padding: 40px;
+}
+
+/* for tablet: iPad (768x1024) */
+
+@media screen and (max-width: 770px) {
+    #t1, #t2 {
+        font-size: 80px;
+    }
+
+    .intro {
+        top: 5%;
+    }
+    
+    .button3 {
+        width: 40%;
+    }
+
+}
+
+/* for mobile: iPhoneX (375x812)*/
+
+@media only screen and (max-width: 425px) {
+    /* container 1 styles */
+    .logo {
+        height: 30px;
+    }
+    #nav li {
+        display: none;
+    }
+    .button1,
+    .button2 {
+        font-size: 13px;
+    }
+    .heroContainer {
+        width: 85%;
+        height: 50%;
+        bottom: 30%;
+    }
+    #heroContent {
+        padding: 20px;
+    }
+    .intro {
+        font-family: effraLight;
+        text-align: center;
+        padding: 20px;
+        top: 10px;
+        font-size: 18px
+    }
+    #t1 {
+        margin: 0px;
+        font-size: 45px;
+    }
+    #t2 {
+        font-size: 45px;
+    }
+    .search input[type=text] {
+        margin-top: 30px;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 18px;
+    }
+    .hero {
+        height: 50%;
+    }
+    .footer1 {
+        height: 50%;
+    }
+    a[href^="#link2"] {
+        position: relative;
+        top: 70px;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 20px;
+    }
+    /* container 2 styles */
+    .header2 {
+        font-size: 20px;
+    }
+    .text2 {
+        font-size: 18px;
+        position: relative;
+        top: 1%;
+    }
+    a[href^="#link3"] {
+        position: relative;
+        top: 70px;
+        font-size: 18px;
+        padding: 30px;
+    }
+    /* container 3 styles */
+    .header3 {
+        font-size: 20px;
+    }
+    .text3 {
+        font-size: 18px;
+        position: relative;
+        top: 1%;
+    }
+    a[href^="#link4"] {
+        position: relative;
+        top: 70px;
+        font-size: 18px;
+        padding: 30px;
+    }
+    /* container 4 styles */
+    .content4 {
+        position: relative;
+        font-size: 20px;
+        top: 20%;
+        padding: 60px;
+    }
+    .button3 {
+        width: 70%;
+        padding: 30px;
+        font-size: 18px;
+        margin: 20px;
+    }
+    a[href^="#nav"] {
+        font-size: 15px;
+    }
+    
+}

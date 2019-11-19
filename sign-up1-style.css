@@ -1,0 +1,321 @@
+@font-face {
+    font-family: effra;
+    src: url(effra/Effra.ttf);
+}
+
+@font-face {
+    font-family: effraBold;
+    src: url(effra/EffraBold.ttf);
+}
+
+@font-face {
+    font-family: effraItalic;
+    src: url(effra/EffraItalic.ttf);
+}
+
+@font-face {
+    font-family: effraLight;
+    src: url(effra/EffraLight.ttf);
+}
+
+@font-face {
+    font-family: effraMedium;
+    src: url(effra/EffraMedium.ttf);
+}
+
+/* initial screensize: Macbook Air (1440x900) */
+
+html,
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Effra;
+}
+
+.description {
+    font-family: effraLight;
+}
+
+/* nav styles */
+
+.logo {
+    float: left;
+    padding: 1%;
+    height: 35px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    background: rgb(53, 116, 223);
+    background: linear-gradient(135deg, rgba(53, 116, 223, 1) 0%, rgba(19, 56, 95, 1) 100%);
+    color: #FFFFFF;
+    padding: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.buttonContainer {
+    position: absolute;
+    right: 3%;
+    display: flex;
+    justify-content: flex-end;
+    height: 60%;
+    width: 40%;
+
+}
+
+.button1 {
+    font-family: effra;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    margin-right: 5%;
+    color: #FFFFFF;
+    background-color: #AEC7F2;
+    transition: all .2s ease-in-out;
+}
+
+.button1:hover {
+    transform: scale(1.05);  
+
+}
+
+/* container 1 (sign up1) */
+
+#container1 {
+    color: #FFFFFF;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-image: url("img/sebastian-ervi-xJt6Gs20Uqc-unsplash.jpg");
+    background-size: cover;
+    z-index: 2;
+}
+
+#signUpContainer {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    padding: 40px 25%;
+    background: rgb(35, 35, 35);
+    background: linear-gradient(180deg, rgba(35, 35, 35, 1) 75%, rgba(35, 35, 35, 0) 100%);
+    opacity: 0.95;
+}
+
+#signUpContainer h2 {
+    font-family: effraBold;
+    text-align: left;
+    font-size: 50px;
+    margin: 0;
+}
+
+#signUpContainer p {
+    text-align: left;
+    font-size: 24px;
+}
+
+#signUpPrompt {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+input[type=text],
+input[type=password] {
+    font-family: effra;
+    font-size: 18px;
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+/* remember me checkbox*/
+
+.checkbox1 {
+    position: relative;
+    top: 20px;
+    padding-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.checkbox1 input {
+    font-family: effraMedium;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.checkbox1:hover input~.check {
+    background-color: #ccc;
+}
+
+.checkbox1 input:checked~.check {
+    background-color: #2196F3;
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox1 input:checked~.check:after {
+    display: block;
+}
+
+.checkbox1 .check:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+
+/* styles for the buttons  */
+
+.signUpButtons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+    width: 20%;
+}
+
+.cancel {
+    font-family: effra;
+    font-size: 20px;
+    color: #818895;
+    background-color: #D7E3F9;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.cancel:hover {
+    transform: scale(1.05);  
+}
+
+.signUp {
+    font-family: effra;
+    font-size: 20px;
+    background-color: #3574DF;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.signUp:hover {
+    transform: scale(1.05);  
+}
+
+/* for tablet: iPad (768x1024) */
+
+@media only screen and (max-width: 768px) {
+    .signUpButtons {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+}
+
+/* for mobile: iPhoneX (375x812)*/
+
+@media only screen and (max-width: 425px) {
+
+/* sign up page styles */
+
+    .button1{
+        font-size: 15px;    
+    }
+
+    .signUpContainer {
+        position: relative;
+        top: 0;
+        padding: 20px 10%;
+    }
+    .signUpContainer h2 {
+        font-size: 30px;
+    }
+    .signUpContainer p {
+        font-size: 18px;
+    }
+    #signUpPrompt {
+        font-size: 15px;
+    }
+    input[type=text],
+    input[type=password] {
+        font-size: 15px;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+
+    .signUpButtons {
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+
+    .cancel {
+        font-family: effra;
+        font-size: 20px;
+        color: #818895;
+        background-color: #D7E3F9;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 15px;
+        width: inherit;
+        transition: all .2s ease-in-out;
+    } 
+
+     .signUp {
+        font-family: effra;
+        font-size: 20px;
+        background-color: #3574DF;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 15px;
+        width: inherit;
+        transition: all .2s ease-in-out;
+    }
+
+}

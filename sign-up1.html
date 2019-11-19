@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SeatGeek</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up1-style.css">
+
+</head>
+
+<body>
+
+    <div id="nav">
+
+        <img class="logo" src="img/338x65.png" />
+
+        <div class="buttonContainer">
+
+            <button class="button1">Log in</button>
+
+        </div>
+
+    </div>
+
+    <div id="container1">
+
+        <form id="signUpContainer" onsubmit="return validation()" method="post">
+
+            <h2>Sign up</h2>
+
+            <p id="signUpPrompt">Please enter your email and password to proceed.</p>
+
+            <p><strong>First Name</strong></p>
+            <input type="text" placeholder="Enter First Name" id="firstName" name = "fName">
+
+            <p><strong>Last Name</strong></p>
+            <input type="text" placeholder="Enter Last Name" id="lastName" name = "lName">
+
+            <p><strong>Email</strong></p>
+            <input type="text" placeholder="Enter Email" id="email" name = "email">
+
+            <p><strong>Password</strong></p>
+            <input type="password" placeholder="Enter Password" id="pw" name = "pw">
+
+            <label class="checkbox1">  Remember me 
+
+                <input type="checkbox" checked="checked">
+                <span class="check"></span>
+
+            </label>
+
+        </form>
+
+        <div class="signUpButtons">
+
+                <button type="submit" class="signUp" onclick="store()">Sign up</button>
+
+                <button type="button" class="cancel" onclick="back()">Cancel</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+<script src="js/sign-up1.js"></script>
