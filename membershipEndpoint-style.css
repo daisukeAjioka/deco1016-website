@@ -35,7 +35,7 @@ body {
 }
 
 .description {
-    font-family: EffraLight;
+    font-family: Effra;
 }
 
 
@@ -69,7 +69,7 @@ body {
 }
 
 #name p {
-    font-family: EffraLight;
+    font-family: Effra;
     font-size: 24px;
     padding-right: 20px;
 }
@@ -113,7 +113,7 @@ body {
 .heroContent h2 {
     font-size: 40px;
     padding: 10%;
-    font-family: effraBold;
+    font-family: EffraBold;
     margin: 0;
 }
 
@@ -169,7 +169,7 @@ body {
 
 #cardsInfo {
     color: #FFFFFF;
-    font-family: EffraLight;
+    font-family: Effra;
     font-size: 18px;
     padding-left: 5%;
     padding-bottom: 3%;

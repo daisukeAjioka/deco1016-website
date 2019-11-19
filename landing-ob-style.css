@@ -36,7 +36,7 @@ body {
 }
 
 .description {
-    font-family: EffraLight;
+    font-family: Effra;
 }
 
 
@@ -182,7 +182,7 @@ body {
 }
 
 .intro {
-    font-family: EffraLight;
+    font-family: Effra;
     font-size: 20px;
     position: relative;
     top: 10%;
@@ -424,7 +424,7 @@ a[href^="#nav"] {
         padding: 20px;
     }
     .intro {
-        font-family: effraLight;
+        font-family: Effra;
         text-align: center;
         padding: 20px;
         top: 10px;
