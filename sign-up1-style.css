@@ -23,6 +23,7 @@
     src: url(effra/EffraMedium.ttf);
 }
 
+
 /* initial screensize: Macbook Air (1440x900) */
 
 html,
@@ -36,6 +37,7 @@ body {
 .description {
     font-family: effraLight;
 }
+
 
 /* nav styles */
 
@@ -65,7 +67,6 @@ body {
     justify-content: flex-end;
     height: 60%;
     width: 40%;
-
 }
 
 .button1 {
@@ -82,9 +83,9 @@ body {
 }
 
 .button1:hover {
-    transform: scale(1.05);  
-
+    transform: scale(1.05);
 }
+
 
 /* container 1 (sign up1) */
 
@@ -93,7 +94,7 @@ body {
     height: 110vh;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     background-image: url("img/sebastian-ervi-xJt6Gs20Uqc-unsplash.jpg");
     background-size: cover;
     z-index: 2;
@@ -110,7 +111,6 @@ body {
 }
 
 #signUpContainer h2 {
-    font-family: effraBold;
     text-align: left;
     font-size: 50px;
     margin: 0;
@@ -227,7 +227,7 @@ input[type=password] {
 }
 
 .cancel:hover {
-    transform: scale(1.05);  
+    transform: scale(1.05);
 }
 
 .signUp {
@@ -244,8 +244,9 @@ input[type=password] {
 }
 
 .signUp:hover {
-    transform: scale(1.05);  
+    transform: scale(1.05);
 }
+
 
 /* for tablet: iPad (768x1024) */
 
@@ -257,16 +258,14 @@ input[type=password] {
     }
 }
 
+
 /* for mobile: iPhoneX (375x812)*/
 
 @media only screen and (max-width: 425px) {
-
-/* sign up page styles */
-
-    .button1{
-        font-size: 15px;    
+    /* sign up page styles */
+    .button1 {
+        font-size: 15px;
     }
-
     .signUpContainer {
         position: relative;
         top: 0;
@@ -287,13 +286,11 @@ input[type=password] {
         padding: 5px 20px;
         cursor: pointer;
     }
-
     .signUpButtons {
         display: flex;
         align-items: center;
         width: 70%;
     }
-
     .cancel {
         font-family: effra;
         font-size: 20px;
@@ -304,9 +301,8 @@ input[type=password] {
         border-radius: 15px;
         width: inherit;
         transition: all .2s ease-in-out;
-    } 
-
-     .signUp {
+    }
+    .signUp {
         font-family: effra;
         font-size: 20px;
         background-color: #3574DF;
@@ -317,5 +313,4 @@ input[type=password] {
         width: inherit;
         transition: all .2s ease-in-out;
     }
-
 }

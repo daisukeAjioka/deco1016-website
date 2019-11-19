@@ -79,10 +79,8 @@ body {
 }
 
 .button1:hover {
-    transform: scale(1.05);  
-
+    transform: scale(1.05);
 }
-
 
 
 /* container 2 (sign up2) */
@@ -109,7 +107,6 @@ body {
 }
 
 .content h2 {
-    font-family: effraBold;
     text-align: left;
     font-size: 50px;
     margin: 0;
@@ -222,10 +219,8 @@ body {
 }
 
 #back:hover {
-    transform: scale(1.05);  
-
+    transform: scale(1.05);
 }
-
 
 #skip {
     font-family: effra;
@@ -242,8 +237,7 @@ body {
 }
 
 #skip:hover {
-    transform: scale(1.05);  
-
+    transform: scale(1.05);
 }
 
 

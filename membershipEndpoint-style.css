@@ -34,10 +34,6 @@ body {
     font-family: Effra;
 }
 
-.description {
-    font-family: effraLight;
-}
-
 
 /* nav styles */
 
@@ -227,6 +223,7 @@ body {
 .card3:hover {
     transform: scale(1.05);
 }
+
 
 /* for tablet: iPad (768x1024) */
 
