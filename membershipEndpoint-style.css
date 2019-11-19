@@ -113,7 +113,7 @@ body {
 .heroContent h2 {
     font-size: 40px;
     padding: 10%;
-    font-family: EffraBold;
+    font-family: Effra;
     margin: 0;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 .container2 h2 {
-    font-family: EffraBold;
+    font-family: Effra;
     font-size: 40px;
     padding: 2%;
     color: rgba(53, 116, 223, 1);
@@ -161,7 +161,7 @@ body {
 
 #cardsTitle {
     color: #FFFFFF;
-    font-family: EffraBold;
+    font-family: Effra;
     font-size: 24px;
     padding: 5%;
     margin: 0;
@@ -240,7 +240,7 @@ body {
         padding-top: 10%;
         padding-bottom: 15%;
         padding-left: 10%;
-        font-family: effraBold;
+        font-family: Effra;
         margin: 0;
     }
 }
