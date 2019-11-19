@@ -35,10 +35,6 @@ body {
     scroll-behavior: smooth;
 }
 
-.description {
-    font-family: effraLight;
-}
-
 
 /* nav styles */
 
@@ -182,7 +178,6 @@ body {
 }
 
 .intro {
-    font-family: effraLight;
     font-size: 20px;
     position: relative;
     top: 10%;
@@ -424,7 +419,6 @@ a[href^="#nav"] {
         padding: 20px;
     }
     .intro {
-        font-family: effraLight;
         text-align: center;
         padding: 20px;
         top: 10px;

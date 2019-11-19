@@ -34,10 +34,6 @@ body {
     font-family: Effra;
 }
 
-.description {
-    font-family: effraLight;
-}
-
 
 /* nav styles */
 
@@ -156,7 +152,6 @@ input[type=password] {
 }
 
 .checkbox1 input {
-    font-family: effraMedium;
     position: absolute;
     opacity: 0;
     cursor: pointer;
